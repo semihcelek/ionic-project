@@ -1,13 +1,18 @@
 ion-slide {
-    height: 100vh;
-    flex-direction: column;
-    text-align: justify;
+  height: 100vh;
+  flex-direction: column;
+  text-align: justify;
 }
 ion-img {
-    max-width: 100vw ;
-    max-height: 100vh;
-
+  max-width: 100vw;
+  max-height: 100vh;
 }
 .step-one {
-    background-color: #00FCFF;
+  background-color: #00fcff;
+}
+.step-two {
+  background-color: hotpink;;
+}
+.step-three {
+    background-color: rgb(43, 255, 0);
 }

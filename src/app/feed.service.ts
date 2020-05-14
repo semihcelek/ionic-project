@@ -19,6 +19,18 @@ export class FeedService {
 
     },
     {
+      category: 'Sosyal',
+      expanded: true,
+      content:[ 
+        { id:0, inside:'Ekonomi cooohhh eyi'},
+        { id:1, inside:'Ekonomi cooohhh eyi'},
+        { id:2, inside:'Ekonomi cooohhh eyi'},
+        { id:3, inside:'Ekonomi cooohhh eyi'},
+        { id:4, inside:'Ekonomi cooohhh eyi'}
+    ]
+
+    },
+    {
 
     }
   ];

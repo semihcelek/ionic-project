@@ -3,20 +3,24 @@
           <ion-title>Feed</ion-title>
       </ion-toolbar>
   </ion-header>
-  <ion-content class="page">
+  <ion-content>
       <div *ngFor="let feed of items" class="category-block" >
-          <ion-row no-padding class="category-banner"> 
+         <!-- <ion-row no-padding class="category-banner"> 
               <ion-col button tappable (click)="feed.expanded =!feed.expanded" align-self-center>
-               {{ feed.category }}
+               
               </ion-col>
           </ion-row>
+        -->
       
-          <ion-slides pager="true" [options]="slideOpts">
+          <ion-slides pager="true" [options]="slideOpts" >
             <ion-slide *ngFor="let content of feed.content">
                 <ion-card>
                     <ion-card-header>
-                        <ion-card-title>{{ content.inside }}</ion-card-title>
+                        <ion-card-subtitle>{{ feed.category }}</ion-card-subtitle>
                     </ion-card-header>
+                    <ion-card-content>
+                        <ion-img src="./assets/tab1/money.jpg"></ion-img>
+                        {{ content.inside }}</ion-card-content>
                 </ion-card>
 
             </ion-slide>

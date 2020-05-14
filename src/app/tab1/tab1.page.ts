@@ -14,7 +14,7 @@ items =[];
 
 slideOpts = {
   centeredSlides: true,
-  slidesPerView: 1.25,
+  slidesPerView: 1.6,
   spaceBetween: 10,
 
 }
