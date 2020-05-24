@@ -10,7 +10,7 @@ export class FeedService {
       category: 'Ekonomik',
       expanded: true,
       content:[ 
-        { id:0, inside:'Ekonomi cooohhh eyi'},
+        { id:0, inside:'Tüketici hakem heyetleri, yılın ilk 4 ayında 180 bin 466 başvuru alırken, 165 bin 84 başvuruyu karara bağladı. Elektronik ortamda gerçekleştirilen başvuru oranı yeni tip koronavirüs (Kovid-19) salgını nedeniyle nisanda yüzde 80 civarında gerçekleşti.'},
         { id:1, inside:'Ekonomi cooohhh eyi'},
         { id:2, inside:'Ekonomi cooohhh eyi'},
         { id:3, inside:'Ekonomi cooohhh eyi'},

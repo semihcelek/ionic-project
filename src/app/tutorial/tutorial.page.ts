@@ -8,7 +8,7 @@ import { Router } from '@angular/router'
 })
 export class TutorialPage implements OnInit {
   slideOpts = {
-    initialSlide: 1,
+    initialSlide: 0,
   };
 
   constructor() { }

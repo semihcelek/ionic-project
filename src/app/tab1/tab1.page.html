@@ -4,13 +4,36 @@
       </ion-toolbar>
   </ion-header>
   <ion-content>
-      <div *ngFor="let feed of items" class="category-block" >
+    <div *ngFor="let feed of items" class="category-block"  >
+      <ion-grid>
+          <ion-row>
+             <ion-col size-lg="4" size-md="6" size-xs="12"  *ngFor="let content of feed.content" >
+                
+                  <ion-card >
+                      <ion-card-header>
+                          <ion-card-subtitle>{{ feed.category }}</ion-card-subtitle>
+                      </ion-card-header>
+                      <ion-card-content>
+                  <ion-img src='https://picsum.photos/300/200?random='></ion-img>
+                  {{ content.inside }}</ion-card-content>
+                  </ion-card> 
+        </ion-col>
+    </ion-row>
+</ion-grid>
+</div>
+      
+
+    
+
+
+
+   
          <!-- <ion-row no-padding class="category-banner"> 
               <ion-col button tappable (click)="feed.expanded =!feed.expanded" align-self-center>
                
               </ion-col>
           </ion-row>
-        -->
+        
       
           <ion-slides pager="true" [options]="slideOpts" >
             <ion-slide *ngFor="let content of feed.content">
@@ -19,14 +42,14 @@
                         <ion-card-subtitle>{{ feed.category }}</ion-card-subtitle>
                     </ion-card-header>
                     <ion-card-content>
-                        <ion-img src="./assets/tab1/money.jpg"></ion-img>
+                        <ion-img src='https://picsum.photos/300/200?random='></ion-img>
                         {{ content.inside }}</ion-card-content>
                 </ion-card>
 
             </ion-slide>
          
           </ion-slides>
-        </div>
+         --> 
    
 
       
