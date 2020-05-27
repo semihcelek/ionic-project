@@ -1,7 +1,7 @@
 
 <ion-header translucent>
-  <ion-toolbar>
-    <ion-title>Searchbar</ion-title>
+  <ion-toolbar color="secondary">
+    <ion-title>Arama Yap</ion-title>
   </ion-toolbar>
   <ion-toolbar>
     <ion-searchbar></ion-searchbar>
@@ -23,7 +23,7 @@
               </ion-item>
               <ion-item>
                 <ion-label>Bolunecek Odemeler</ion-label>
-                <ion-select multiple="true" cancelText="Iptal" okText="Bol">
+                <ion-select multiple="true" cancelText="Iptal" okText="Ekle">
                   <div *ngFor="let list of items">
                     <div *ngFor="let content of list.content">
                   <ion-select-option value="bacon">{{ content.inside }}</ion-select-option>
