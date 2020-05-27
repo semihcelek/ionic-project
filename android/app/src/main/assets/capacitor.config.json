@@ -1,5 +1,5 @@
 {
-  "appId": "com.cet-app",
+  "appId": "com.cet.app",
   "appName": "cet-app",
   "bundledWebRuntime": false,
   "npmClient": "npm",

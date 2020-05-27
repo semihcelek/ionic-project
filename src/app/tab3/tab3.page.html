@@ -9,13 +9,11 @@
 </ion-header>
 <ion-content fullscreen>
   <ion-list>
-    <ion-item>Faturalar</ion-item>
-    <ion-item>Ev Kredisi</ion-item>
-    <ion-item>Araba kredisi</ion-item>
-    <ion-item>Okul Masraflari</ion-item>
-    <ion-item>Cep Telefonu Taksidi</ion-item>
-    <ion-item>Bilgisayar Taksidi</ion-item>
-    <ion-item>Tatil Plani</ion-item>
+    <div *ngFor="let list of items">
+      <div *ngFor="let content of list.content">
+    <ion-item>{{ content.inside }}</ion-item>
+  </div>
+    </div>
  </ion-list>
 </ion-content>
 
