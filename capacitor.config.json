@@ -1,6 +1,6 @@
 {
-  "appId": "com.cet.app",
-  "appName": "cet-app",
+  "appId": "com.cet-wallet.app",
+  "appName": "Odeyemeyenler",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
